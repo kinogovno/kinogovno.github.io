@@ -1,0 +1,139 @@
+/*#region*/ /*todo Content */
+.Comics div {
+  border-radius: 10px;
+  border: 1px solid rgb(105, 105, 105);
+  transition: ease .2s;
+}
+
+.Comics a {
+  margin: 3%;
+}
+
+/*#region*/ /*todo Releases */
+.a1 {
+  background-image: url(./Comics/one.png);
+  background-size: 100% 100%;
+  width: 244px;
+  height: 364px;
+}
+
+.b2 {
+  background-image: url(./Comics/two.png);
+  background-size: 100% 100%;
+  width: 244px;
+  height: 364px;
+}
+
+.c3 {
+  background-image: url(./Comics/three.png);
+  background-size: 100% 100%;
+  width: 244px;
+  height: 364px;
+}
+
+.d4 {
+  background-image: url(./Comics/four.png);
+  background-size: 100% 100%;
+  width: 244px;
+  height: 364px;
+}
+
+.e5 {
+  background-image: url(./Comics/five.png);
+  background-size: 100% 100%;
+  width: 244px;
+  height: 364px;
+}
+
+.f6 {
+  background-image: url(./Comics/six.png);
+  background-size: 100% 100%;
+  width: 244px;
+  height: 364px;
+}
+/*#endregion*/
+
+.Comics div:hover {
+  box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, .5);
+}
+
+/*#endregion*/
+
+@media (min-width: 1200px) {
+.MainComics {
+    background-color: #0b0b0b;
+    overflow-y: auto;
+    height: 100vh;
+    position: relative;
+    /* border: 1px solid yellow; */
+}
+
+.Content {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 7%; */
+  /* border: 1px solid red; */
+}
+
+.Comics {
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 60%;
+  z-index: 4;
+}
+
+.bgL {
+  width: 100%;
+  background-image: url(./bgL.png);
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  max-width: 296px;
+  height: 100%;
+  max-height: 835px;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  /* opacity: .8; */
+}
+
+.bgR {
+  width: 100%;
+  background-image: url(./bgR.png);
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  max-width: 296px;
+  height: 100%;
+  max-height: 835px;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  /* opacity: .8; */
+}
+}
+
+@media (max-width: 1199px) {
+  .MainComics {
+    background-color: #0b0b0b;
+    overflow-y: auto;
+    height: 100vh;
+    position: relative;
+    /* border: 1px solid yellow; */
+}
+
+.Comics {
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 95%;
+  z-index: 4;
+}
+}

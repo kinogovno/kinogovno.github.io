@@ -1,0 +1,42 @@
+@media (min-width: 1200px){
+}
+.Content {
+    height: 100vh;
+    background-color: #0b0b0b;
+    overflow-y: auto;
+    position: relative;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    max-width: 100%;
+    height: 100vh;
+    /* margin: auto; */
+}
+
+.InfoText {
+    position: absolute;
+    right: 0;
+    max-width: 35%;
+    z-index: 1;
+    padding: 10% 5% 0 0;
+}
+
+.InfoText p {
+    color: rgba(255, 255, 255, .6);
+    font-size: 17pt;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.MainImg {
+    background-image: url(./don2.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    max-width: 824px;
+    height: 100%;
+    max-height: 1101px;
+    top: 0;
+}
